@@ -165,7 +165,7 @@ export default function PostForm() {
           value={content}
         />
       </div>
-      <div className="form__block form__block--flex">
+      <div className="form__block">
         <input
           type="submit"
           value={post ? "수정" : "제출"}
