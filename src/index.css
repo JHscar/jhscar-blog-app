@@ -13,7 +13,6 @@ code {
 }
 
 /* header */
-
 header {
   display: flex;
   justify-content: space-between;
@@ -193,8 +192,11 @@ footer a:hover {
   padding: 20px 0px;
 }
 
-/* profile */
+.post__text--pre-wrap {
+  white-space: pre-wrap;
+}
 
+/* profile */
 .profile__box {
   display: flex;
   gap: 18px;
