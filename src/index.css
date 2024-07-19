@@ -422,6 +422,10 @@ input:checked + .carousel__slide-container .nav label {
   width: 100%;
 }
 
+.form .form__block--flex {
+  display: flex;
+}
+
 .form label {
   display: block;
   font-weight: 500;
